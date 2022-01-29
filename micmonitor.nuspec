@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>micmonitor</id>
+    <version>1.1.0</version>
+    <packageSourceUrl>https://github.com/hexandcube/MicMonitor-chocolatey</packageSourceUrl>
+    <owners>Hexandcube</owners>
+    <title>MicMonitor (Install)</title>
+    <authors>Hexandcube</authors>
+    <projectUrl>https://github.com/hexandcube/MicMonitor</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/hexandcube/MicMonitor/master/MicMonitor.png</iconUrl>
+    <copyright>2022 Hexandcube</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/hexandcube/MicMonitor/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/hexandcube/MicMonitor</projectSourceUrl>
+    <docsUrl>https://github.com/hexandcube/MicMonitor</docsUrl>
+    <bugTrackerUrl>https://github.com/hexandcube/MicMonitor/issues</bugTrackerUrl>
+    <tags>MicMonitor</tags>
+    <summary>Simple program that allows you to quickly toggle Microphone monitoring in Windows </summary>
+    <description>MicMonitor is a simple program written in Autohotkey that allows you to quickly toggle microphone monitoring in Windows ("Listen to this device" option in Control panel).</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
